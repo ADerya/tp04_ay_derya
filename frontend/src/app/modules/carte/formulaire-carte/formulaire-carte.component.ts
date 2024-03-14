@@ -29,8 +29,7 @@ export class FormulaireCarteComponent implements OnInit {
         this.carteService.ajouterCarte(this.carteForm.value);
         console.log(this.carteForm.value);
         this.carteForm.reset(); 
-        alert('La carte a été ajoutée avec succès !');
-      
+        alert('La carte a été ajoutée avec succès !');  
     } else {
       alert('Veuillez remplir correctement tous les champs du formulaire.');
     }
